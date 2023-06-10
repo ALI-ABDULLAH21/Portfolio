@@ -1,0 +1,157 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+header{
+    text-align:center;
+    font-weight:bolder;
+    background-color:rgb(32, 45, 49);
+    color:white;
+
+}
+.header_nav{
+    background-color:rgb(32, 45, 49);
+    
+}
+.header_ul{
+    
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    
+}
+ .port_img{
+    margin-left:70%;
+    margin-top:-90%;
+    border-radius: 50%;
+    border:4px double rgb(90, 154, 179);
+
+}
+.port_li{
+    list-style-type: none;
+
+}
+.header_ul a{
+    color:rgb(90, 154, 179);
+    font-size: 1.5rem;
+
+}
+body{
+    background-color:rgb(32, 45, 49);
+}
+p{
+    color:whitesmoke;
+    font-size:1.5rem;
+    margin-top:8rem;
+    margin-left:3rem;
+}
+
+h1{
+    color:rgb(90, 154, 179);
+    margin-left:4rem;
+}
+.box_p{
+    color:whitesmoke;
+    font-size:1.5rem;
+    background-color: rgb(90, 154, 179);
+}
+.box_p{
+    border:1px solid rgb(90, 154, 179);
+    border-radius:10px 50px;
+    margin-right:50%;
+    margin-left:10%;
+}
+
+.social ul{
+    list-style-type: none;
+
+
+}
+.social ul{
+    position:absolute;
+    top:80%;
+    left:30%;
+    
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:1.5rem;
+}
+.social a{
+    font-size:2rem;
+}
+.social a{
+    color:rgb(90, 154, 179);
+}
+.social ul li a:hover{
+    transform:translate(0,-10%);
+}
+.contacts{
+    text-align:center;
+    margin-top: 20%;
+    margin-left: 30%;
+    margin-right: 30%;
+    color:whitesmoke;
+    border:1px solid rgb(90, 154, 179);
+
+}
+.contacts a{
+    color:papayawhip;
+}
+ pre{
+    text-align:center;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+.skills_ol{
+    
+    text-align:center;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    margin-top:2rem;
+    line-height: 2rem;
+    font-family:"Fugaz One",cursive; 
+    
+}
+
+.skills_main li{
+    
+    color:white;
+
+}
+.skills_li{
+    list-style-type:disc;
+    
+}
+.skill_head{
+    margin-top:1.5rem;
+    text-align: center;
+}
+.lang{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:1.5rem;
+    margin:5rem;
+}
+.skills_ol{
+    list-style-type:circle;
+}
+.lang img:hover{
+    transform:translate(0,-10%);
+}
+.table_sec{
+    text-align: center;
+    margin-top:3rem;
+}
+
+
+
+
+
+
+
+
